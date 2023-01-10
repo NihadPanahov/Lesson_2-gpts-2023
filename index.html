@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - login or sign up</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: #F0F2F5;
+        }
+
+
+        .fb_login,
+        input {
+
+            width: 90%;
+            margin: 5px 0;
+            padding: 12px 15px;
+            border-radius: 5px;
+            color: #90949C;
+            border: 0.1px solid #90949C;
+        }
+
+
+        .fb_login {
+            margin-left: 36%;
+            margin-right: 36%;
+            border: 2px solid black;
+            width: 364px;
+            background-color: white;
+            border: none;
+            box-shadow: 1px 1px 30px 0.1px #d6d6d6;
+            border-radius: 7px;
+        }
+
+
+        /* ============================= */
+
+        .login_button {
+            background-color: #166FE5;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            border: none;
+            width: 359px;
+            height: 44px;
+        }
+
+        .forget_password {
+            margin: 0px 125px;
+            font-size: 13px;
+            color: #166FE5;
+            text-decoration: none;
+            font-family: sans-serif;
+            pointer-events: auto;
+        }
+
+
+        .forget_password:hover {
+            text-decoration: underline;
+        }
+
+        /* ============================= */
+        .line {
+            border-bottom: 1px solid #dadde1;
+            margin-top: 5px;
+        }
+
+        /* ============================= */
+        .create_new_account {
+            background-color: #36A420;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 25px;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-left: 76px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+    </style>
+
+    <div class="fb_login">
+        <input type="text" placeholder="Email or phone number">
+        <br>
+        <input type="password" placeholder="Password">
+
+        <!--  =============================  -->
+
+        <a href="#"><button class="login_button"><span>Log In</span></button></a>
+        <!--  =============================  -->
+        <br><br>
+        <!--  =============================  -->
+        <a class="forget_password" href="#">Forgot password?</a>
+        <!--  =============================  -->
+        <br><br>
+
+        <!--  =============================  -->
+        <div class="line"></div>
+        <!--  =============================  -->
+        <a href="index2.html"><button class="create_new_account">Create new account</button></a>
+
+
+    </div>
+
+
+</body>
+
+</html>
